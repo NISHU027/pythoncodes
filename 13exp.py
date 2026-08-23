@@ -10,7 +10,7 @@ def fmt(x):
     else:
         return f"{x:g}"
 
-print("Salary Details:")
+#print("Salary Details:")
 print(f"Basic Salary:    {fmt(basic)}")
 print(f"DA (70%):        {fmt(da)}")
 print(f"TA (30%):        {fmt(ta)}")
